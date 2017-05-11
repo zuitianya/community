@@ -1,0 +1,110 @@
+@charset "utf-8";
+#LoginBox{
+    /*position:absolute;*/
+    left:460px;
+    top:150px;
+    background:white;
+    width:380px;
+    border-radius:7px;
+    z-index:10000;
+    /*display:none;*/
+}
+.login_row1{
+
+    background:#f7f7f7;
+    padding:0px 20px;
+    line-height:50px;
+    height:50px;
+    font-weight:bold;
+    color:#666;
+    font-size:20px;
+}
+.login_row{
+    padding:10px 15px;
+}
+.login_verifyCode{
+    padding:0px 15px;
+}
+.close_btn{
+    font-family:arial;
+    font-size:30px;
+    font-weight:700;
+    color:#999;
+    text-decoration:none;
+    float:right;
+    padding-right:4px;
+}
+.close_btn:hover{
+    text-decoration:none;
+}
+#loginform-username.form-control,#loginform-password.form-control{
+    display: block;
+    height: 40px;
+    padding-left: 33px;
+    border: 1px solid #ccc;
+    border-radius:0;
+    background-color: #fff;
+    background: url(../images/login-box/user.png) 5px 10px no-repeat;
+}
+.form-group #loginform-username {
+    background: url(../images/login-box/user.png) 5px 10px no-repeat;
+}
+#loginform-verifycode.form-control{
+    float: left;
+    display: inline-block;
+    height: 40px;
+    width: 190px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius:0;
+
+}
+#captchaimg{
+    height:40px;
+    border:1px solid #cccccc;
+    cursor:pointer;
+    width: 110px;
+    margin-left:15px;'],
+}
+#UserName ,#Password{
+    height: 40px;
+    width: 345px;
+    padding-left: 33px;
+    border: 1px solid #ccc;
+    background: url(../images/login-box/user.png) 5px 10px no-repeat;
+}
+#loginform-password.form-control{
+    background: url(../images/login-box/pwd.png) 5px 10px no-repeat;
+}
+#loginbtn{
+    color:white;
+    font-size: 15px;
+    background:#4490f7;
+    text-decoration:none;
+    padding:10px 157px;
+    margin-left: 1px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    border: none;
+}
+
+button.btn.btn-primary {
+    color:white;
+    font-size: 15px;
+    background:#4490f7;
+    text-decoration:none;
+    padding:6px 157px;
+    margin-left: 1px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    border: none;
+}
+.login_row label{
+    display: none;
+}
+.modal-content,div.modal-dialog{
+    width: 412px;
+}
+img#loginform-verifycode-image{
+    height: 40px;
+}
